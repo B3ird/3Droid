@@ -1,0 +1,7 @@
+OpenGL demo application displaying an animated 3D droid without any primitive shape or 3D model.
+
+Author Julien MERLE
+www.julienmerle.com
+
+To compile source project
+g++ Main.cpp Audio.cpp Robot.cpp Event.cpp Mesh.cpp Img.cpp Environment.cpp Texture.cpp Vertex.cpp -o run -lm -lGL -lglut -lGLU
